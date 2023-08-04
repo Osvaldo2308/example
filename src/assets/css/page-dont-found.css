@@ -1,0 +1,12 @@
+.background__page{
+    background-color: aqua;
+    /* opacity: 0.2; */
+}
+.text__title{
+    margin-top: 6rem;
+    font-family: 'Montserrat';
+    font-size: 46px;
+    font-weight: 400;
+    color: black;
+
+}

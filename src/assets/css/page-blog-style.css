@@ -1,0 +1,231 @@
+/* Style for header */
+.headBlog{
+    background: linear-gradient(339.48deg, #3765AA -3.23%, #0C2139 60.61%);
+}
+/* Style for text */
+.texth1Blog{
+    margin-left: 40%;
+    margin-right: -41%;
+    margin-top: 15%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;
+    color: #F79433;
+    margin-bottom: 6%;
+}
+@media (max-width: 768px) {
+    .texth1Blog {
+        margin-left: 5%;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 49px;
+        color: #F79433;
+        margin-right: 0%;
+    }
+}
+.texth2Blog{
+    margin-left: 40%;
+    margin-right: -41%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+@media (max-width: 768px) {
+    .texth2Blog {
+        margin-left: 5%;
+        margin-right: 0%;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+}
+.titartBlog{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #1779B6;
+    margin-top: 5%;
+    margin-left: 9%;
+}
+.descBlog{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #404D5C;
+    margin-left: 9%;
+    margin-right: 8%;
+}
+.texthand5{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29.26px;
+    text-transform: uppercase;
+    color: #F79433;
+    margin-left:  9%;
+    margin-right: 9%;
+}
+.textwork5{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    margin-left:  8%;
+    margin-right: 8%;
+}
+/* Style for button */
+.btn-calledBlog{
+    box-shadow: none;
+    position: fixed;
+    z-index: 1;
+    margin-left: -16.5%;
+    border-top-left-radius: 23px;
+    border-bottom-left-radius: 23px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width: 16.5% !important;
+    background: linear-gradient(244.33deg, #10B4DA 9.66%, #11599B 87.16%);
+    color: #fff;
+    top: 70px
+}
+.btn-calledBlogSm{
+    top: 160px;
+    position: fixed;
+    z-index: 10;
+    margin-left: 86.5%;
+    border-top-left-radius: 23px;
+    border-bottom-left-radius: 23px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background: linear-gradient(244.33deg, #10B4DA 9.66%, #11599B 87.16%);
+    color: #fff;
+}
+@media (min-width: 768px) { 
+    .btn-calledBlogSm{
+        margin-left: 93.5%;
+    }
+}
+.sol-dem-dev2{
+    width: 22%;
+    background: linear-gradient(204.79deg, #F79433 15.8%, #FF4949 126.22%);
+    color: #fff;
+    top: -35px !important;
+    text-transform: initial;
+}
+@media (max-width: 768px) {
+.sol-dem-dev1{
+    min-height: 40px;
+    width: 100%;
+    font-size: 100%;
+    background: linear-gradient(204.79deg, #F79433 15.8%, #FF4949 126.22%);
+    color: #fff;
+    top: -0px !important;
+    text-transform: initial;
+    }
+}
+.btnhidesm{
+    min-width: 103%;
+    background: linear-gradient(204.79deg, #F79433 15.8%, #FF4949 126.22%);
+}
+/* Style for image */
+.imgBlog{
+    width: 80%;
+    margin: auto;
+}
+.imgIcondevelopmentsm{
+    width: 35%;
+    height: 35%;
+    margin: auto;
+}
+.imgIcondevelopmentsm1{
+    width: 70%;
+    margin: auto;
+}
+.textsubtitle5{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 110%;
+    line-height: 144%;
+    color: #0F71A7;
+}
+.textsubtitledes5{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-bottom: -20%;
+    color: #404D5C;
+}
+/* Style icons */
+.iconCall{
+    width: 60%;
+    height: 60%;
+    /* position: absolute; */
+    /* left: -20%; */
+    margin-left: 5%;
+}
+.imgBlogheader{
+    width: 100%;
+    margin-bottom: -20%;
+}
+
+.sinntecHandBlogh2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    color: #404D5C;
+    margin-left: 17%;
+    margin-right: 17%;
+    margin-bottom: 40px;
+    position: relative;
+    top: -100px;
+}
+.sinntecHandBlogh1{
+    font-family: 'Montserrat';
+    /* position: relative; */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    text-transform: uppercase;
+    color: #F79433; 
+    margin-bottom: 40px;
+    /* top: -20px !important; */
+} 
+.sizeImage{
+    width: 85%;
+    margin: auto;
+    top: 12px;
+    margin-left: 25%;
+}
+@media (max-width: 768px) {
+    .sizeImage{
+        width: 100%;
+        margin: auto;
+        top: 12px;
+        margin-left: 0%;
+    }
+}
+.v-btn--size-default {
+    padding: 8px 16px !important;
+    }

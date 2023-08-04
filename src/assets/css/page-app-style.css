@@ -1,0 +1,414 @@
+/* --------------------------------Style for header-------------------------------- */
+.click-link-page-active{
+    background: #0C2139 !important;
+}
+.click-link-page-unactive{
+    background: #FFFFFF !important;
+}
+a.router-link-exact-active{
+    font-style: normal;
+    font-weight: bolder;
+    color: #FFFFFF !important;
+    text-decoration:  2px underline solid #F79433;
+    text-underline-offset: 8px;
+}
+.logoSinntec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+@media (min-width: 300px) { 
+    .logoSinntec{
+        width: 50%;
+    }
+}
+@media (min-width: 768px) {
+    .logoSinntec{
+        width: 30% !important;
+        margin-top: 3%;
+    }
+}
+@media (min-width: 1000px) { 
+    .logoSinntec{
+        width: 35% !important;
+    }
+}
+.tex-link-home{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    /* gap: 4rem; */
+    color: #FFFFFF;
+}
+.optRou2{
+    font-family: 'Montserrat';
+    color: #F79433 !important;
+    font-weight: 600;
+    text-transform: initial;
+    margin: auto;
+    font-size: 16px;
+}
+@media (max-width: 768px) {
+    .optRou2{
+        text-align: center;
+        font-family: 'Montserrat';
+        font-weight: 600;
+        text-transform: initial;
+        text-decoration: none;
+        margin-left: auto;
+        font-size: 16px;
+    }
+} 
+@media (min-width: 768px ) { 
+    .optRou2{
+        text-align: center;
+    }
+}
+.optRou{
+    font-family: 'Montserrat';
+    color: #11599B !important;
+    font-weight: 600;
+    text-transform: initial;
+    margin: auto;
+    font-size: 16px;
+}
+@media (max-width: 768px) {
+    .optRou{
+        text-align: center;
+        font-family: 'Montserrat';
+        font-weight: 600;
+        text-transform: initial;
+        text-decoration: none;
+        margin-left: auto;
+        font-size: 16px;
+    }
+}
+.btnContact{
+    display: block;
+    font-family: 'Montserrat';
+    width: 100%;
+    margin: auto;
+    color: #1779B6 !important;
+    background: transparent;
+    text-transform: initial;
+}
+@media (max-width: 768px) {
+    .btnContact{
+        display: none;
+        font-family: 'Montserrat';
+        margin: auto;
+        color: #1779B6 !important;
+        background: transparent;
+        text-transform: initial;
+    }
+}
+.btnContact2{
+    display: block;
+    font-family: 'Montserrat';
+    width: 100%;
+    margin: auto;
+    color: #F79433 !important;
+    background: transparent;
+    text-transform: initial;
+}
+@media (max-width: 768px) {
+    .btnContact2{
+        display: none;
+        font-family: 'Montserrat';
+        margin: auto;
+        color: #F79433 !important;
+        background: transparent;
+        text-transform: initial;
+    }
+}
+
+/* --------------------------------Style for Form-------------------------------- */
+
+.sinntecForm{
+    width: 85px;
+    height: 85px;
+    top:-64px;
+    margin:auto
+}
+@media (max-width: 768px) {
+    .sinntecForm{
+        width: 100px;
+        height: 100px;
+        top:0px;
+        margin:auto;
+    }
+}
+.titForm{
+    font-family: 'Montserrat';
+    text-align: center;
+    font-size: 26px;
+    line-height: 29.26px;
+    font-weight: 700;
+    color: #10B4DA;
+    text-transform: uppercase;
+    margin-top: -4%;
+}
+@media (max-width: 768px) {
+    .titForm{
+        font-size: 26px;
+        line-height: 29.26px;
+        font-weight: 700;
+        color: #10B4DA;
+        text-transform: uppercase;
+        margin-top: 5%;
+    }
+}
+.subtiForm{
+    text-align: center;
+    font-size: 50px;
+    line-height: 80.45px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.descriptionForm{
+    text-align: center;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    font-variant: all-small-caps;
+    color: #10B4DA;
+    mix-blend-mode: normal;
+}
+@media (max-width: 768px) {
+    .descriptionForm{
+        font-weight: 500 !important;
+        text-align: center;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+        font-variant: all-small-caps;
+        color: #FFFFFF ;
+        mix-blend-mode: normal;
+    }
+}
+.campForms {
+    color: #fff;
+    height: 48px !important;
+    width: 90%; 
+    margin: auto;
+    background-color: #193959 !important;
+    margin-bottom: 5.5%;
+    border-radius: 50px;
+}
+@media (max-width: 768px) {
+    .campForms{
+        color: #fff;
+        width: 90%; 
+        margin: auto;
+        background: #193959 !important;
+        margin-bottom: 5%;
+    }
+}
+.textAreaForm div{
+    color: #fff !important;
+    background-color: #193959 !important;
+    border-radius: 10px !important;
+}
+.btnSubmit{
+    width: 30%;
+    border-radius: 50px;
+    text-transform: initial;
+    background: linear-gradient(244.33deg, #10B4DA 9.66%, #11599B 87.16%);
+    color: #FFFFFF !important;
+    margin-bottom: 40%;
+    margin-top: 48px;
+}
+@media (max-width: 768px) {
+    .btnSubmit{
+        width: 100%;
+        border-radius: 0px;
+        text-transform: initial;
+        background: linear-gradient(244.33deg, #10B4DA 9.66%, #11599B 87.16%);
+        color: #FFFFFF !important;
+        margin-top: 18%;
+        margin-bottom: 0%;
+        min-height: 46px;
+    }
+}
+@media (max-width: 600px) { 
+    .btnSubmit{
+        margin-top: 35%;
+    }
+}
+.sizeBtn{
+    width: 30%; 
+    margin: auto;
+}
+@media (max-width: 768px) {
+    .sizeBtn{
+        width: 100%; 
+        /* z-index: 1000; */
+        margin-top: -7rem;
+        height: 46px;
+        margin-bottom: 9rem;
+    }
+}
+
+/* --------------------------------Styles for footer images-------------------------------- */
+
+.img_footer{
+    align-content: center;
+    width: 151.9px;
+    height: 94px;
+    margin-left: 0%;
+    background-blend-mode: screen;
+}
+.footerApp{
+    background: #0C2139;
+}
+.sizeLine{
+    opacity: .4;
+    max-width: 95%; 
+    margin: auto;
+}
+@media (max-width: 768px) {
+    .sizeLine{
+        opacity: .8;
+        max-width: 90%; 
+        margin: auto;
+    }
+}
+.marginSize{
+    margin-left: 25%;
+}
+@media (max-width: 768px) {
+    .marginSize{
+        margin-left: 8%;
+    }
+}
+.tex-footer{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 50px; 
+    color: #fff;
+    text-decoration: none;
+}
+.optRou3{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    text-transform: initial;
+    margin-left: auto;
+    font-size: 16px;
+}
+@media (max-width: 768px) {
+    .optRou3{
+        text-align: center;
+        font-family: 'Montserrat';
+        font-weight: 600;
+        text-transform: initial;
+        text-decoration: none;
+        margin-left: auto;
+        font-size: 16px;
+    }
+}
+.optRou4{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    text-transform: initial;
+    margin-left: auto;
+    font-size: 16px;
+}
+@media (max-width: 768px) {
+    .optRou4{
+        text-align: center;
+        font-family: 'Montserrat';
+        font-weight: 600;
+        text-transform: initial;
+        text-decoration: none;
+        margin-left: auto;
+        font-size: 16px;
+    }
+}
+.marginSizePrec{
+    margin-left: 5%;
+    margin-top: 40px;
+}
+@media (max-width: 768px) {
+    .marginSizePrec{
+        margin-top: -20px;
+        margin-left: 8%;
+    }
+}
+.marginSize1{
+    line-height: 40px;
+    margin-top: 8%;
+    margin-left: 5%;
+}
+@media (max-width: 768px) {
+    .marginSize1{
+        margin-left: 10%;
+    }
+}
+.contact-a{
+    text-decoration: none; 
+    color: #fff; 
+    font-family: 'Montserrat'; 
+    font-weight: 400;
+}
+.Icons{
+    height: 85%;
+}
+
+/* --------------------------------Style for notice footer-------------------------------- */
+
+.textNotice{
+    color: #D8DEE6; 
+    font-weight: 500; 
+    cursor: pointer;
+    font-family: 'Montserrat';
+    text-decoration:underline;
+}
+.descForm{
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    font-variant: all-small-caps;
+    color: #10B4DA;
+    mix-blend-mode: normal;
+}
+@media (max-width: 768px) {
+    .descForm{
+        font-weight: 500 !important;
+        text-align: center;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+        font-variant: all-small-caps;
+        color: #FFFFFF ;
+        mix-blend-mode: normal;
+    }
+}
+div.v-field{
+    border-radius: 50px;
+    height: 48px;
+}
+.v-field__outline {
+    --v-field-border-width: 0px;
+    width: 0%;
+}
+a{
+    font-family: 'Montserrat';
+    text-decoration: none;
+}
+
+/* styles for recaptcha */
+.recaptcha__footer{
+    border-radius: 23px;
+    margin-top: 8rem; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center;
+    margin-bottom: 0rem;
+}
+

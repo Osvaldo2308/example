@@ -1,0 +1,27 @@
+.style__Modal{
+    border-radius: 23px !important;
+}
+.text__title--Terms{
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    color: #1779B6;
+}
+.text__Terms{
+    color: #708198;
+    text-align: justify;
+    margin-left:  1rem;
+    margin-right: 1rem;
+}
+
+.icon__Terms{
+    margin-left: 92.5%;
+    position: fixed;
+}
+@media (max-width: 767px) { 
+    .icon__Terms{
+        margin-left: 89% !important;
+    }
+}

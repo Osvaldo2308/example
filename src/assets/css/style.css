@@ -1,0 +1,137 @@
+/* Estilo para el scroll del modal */
+.container::-webkit-scrollbar {
+  width: 8px;
+  max-height: 8px;
+}
+
+.container::-webkit-scrollbar-track {
+  border: 8px solid transparent;
+  background: transparent;
+  
+}
+
+.container::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 23px;
+}
+
+.container::-webkit-scrollbar-thumb:hover {
+  background-color: #1779B6;
+}
+
+/* Styles for modal Contact */
+.icon__close{
+  position: fixed;
+  left: 87%;
+}
+.inputModal{
+  background: #F5F7FA; color: #59637F; border-radius: 50px;
+}
+.textModal{
+  color: #376094;
+  font-family: 'Montserrat';
+  font-size: 16px;
+  line-height: 22px;
+}
+.descriptionProyect div{
+  border-radius: 12px !important;
+  height: 100% !important;
+  color: #59637F;
+  background: #F5F7FA !important;
+  }
+
+  .recaptcha__modal{
+    margin-top: 1rem; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center;
+    margin-bottom: 0rem;
+    border-radius: 46px;
+  }
+  
+.btnsendForm{
+  background: linear-gradient(244.33deg, #10B4DA 9.66%, #11599B 87.16%);
+  text-transform: initial;
+  color: #FFFFFF !important;
+  font-family: 'Montserrat';
+  font-size: 16px;
+  min-width: 50%;
+  margin-bottom: 5% !important;
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .btnsendForm{
+    background: linear-gradient(244.33deg, #10B4DA 9.66%, #11599B 87.16%);
+    text-transform: initial;
+    color: #FFFFFF !important;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 500;
+    width: 70%;
+    margin: auto;
+    border-radius: 23px;
+    margin-bottom: 0px !important
+  }
+}
+
+.v-btn--disabled.v-btn--variant-elevated, .v-btn--disabled.v-btn--variant-flat {
+  background: #10B4DA;
+  opacity: 100 !important;
+  color: #fff;
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+.selectOptions{
+  text-align: left;
+  width: 93%; 
+  border-radius: 23px; 
+  height: 46px !important; 
+  background: #F5F7FA; 
+  color: #59637F; 
+  border-radius: 50px;
+  border-inline-color:inherit;
+}
+
+/* style for alert library sweetalert */
+.swal-modal{
+    text-shadow: none;
+    background: #fff;
+    border-radius: 24px;
+}
+@media (min-width: 1000px) { 
+    .swal-modal{
+      width: 30%;
+    }
+}
+.swal-title{
+    font-family: 'Montserrat';
+    color: #1779B6;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+}
+.swal-text{
+    font-family: 'Montserrat';
+    color: #1779B6;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+.swal-overlay {
+  background-color: rgba(55, 96, 148, 0.7);
+}
+@media (min-width: 1000px) { 
+    .swal-icon img{
+      width: 20%;
+      height: 20%;
+    }
+}
+@media (min-width: 300px) { 
+    .swal-icon img{
+      width: 20%;
+      height: 20%;
+    }
+}

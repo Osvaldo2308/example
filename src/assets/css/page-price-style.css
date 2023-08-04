@@ -1,0 +1,183 @@
+.sizeDialog{
+    width: 85%;
+    
+    /* border-radius: 23px; */
+}
+@media (max-width: 768px) {
+    .sizeDialog{
+        /* Tamaño raro del width (sobrepasa el 100%) */
+        width: 100% !important;
+        margin-bottom: 12%;
+    }
+}
+.backPrice{
+    background: linear-gradient(339.48deg, #3765AA -3.23%, #0C2139 60.61%);
+}
+.titPrecio{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    align-items: center;
+    text-align: center;
+    font-variant: all-small-caps;
+    color: #F79433;
+}
+@media (max-width: 768px) {
+    .titPrecio{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 29px;
+        font-variant: all-small-caps;
+        color: #F79433;
+        margin-top: 10%;
+    }
+}
+.descPrecio{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+@media (max-width: 768px) {
+    .descPrecio{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        margin-left:  10%;
+        margin-right: 10%;
+        color: #FFFFFF;
+    }
+}
+
+.sizeCarousel{
+    width: 45%;
+    height: 70% !important;
+    margin: auto;
+    border-radius: 23px;
+    margin-top: 2%;
+}
+@media (max-width: 768px) {
+    .sizeCarousel{
+        width: 92%;
+        height: 70% !important;
+        margin: auto;
+        border-radius: 23px;
+        margin-top: 12%;
+    }
+}
+.titletarjetCarousel{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 26px;
+color: #404D5C;
+}
+.tiempo-desarrollo{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: -62%;
+    color: #404D5C;
+}
+.descripcion-precio{
+    font-family: 'Montserrat';
+    text-align: left;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #404D5C;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+@media (max-width: 768px) {
+    .descripcion-precio{
+    font-size: 14px;
+    margin-left: 5%;
+    margin-right: 5%;
+    }
+}
+.preciosProyect{
+    margin-left: -50%; 
+    margin-top: 3%; 
+    color: #1779B6;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 22px;
+    font-variant: all-small-caps;
+}
+@media (max-width: 768px) {
+    .preciosProyect{
+        margin-left: -40%;
+    }
+}
+.btnPrecio{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    background: linear-gradient(249.35deg, #F79433 6.62%, #FF4949 95.63%);
+    border-radius: 30px;
+    text-transform: initial;
+    color: #FFFFFF !important;
+    width: 30%;
+    margin: auto;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+@media (max-width: 768px) {
+    .btnPrecio{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 0.2px;
+        border-radius: 0px;
+        width: 100%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        height: 46px !important;
+    }
+}
+.v-carousel-Size{
+    margin-bottom: 0%;
+}
+@media (max-width: 768px) {
+    .v-carousel-Size{
+        margin-bottom: 0%;
+    }
+}
+.icon-close-modal{
+    margin-bottom: -20px;
+    left: 95%; 
+    top:23px
+}
+@media (max-width: 768px) {
+    .icon-close-modal{
+        left: 90%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .v-window__controls{
+        display: none;
+    }
+}
